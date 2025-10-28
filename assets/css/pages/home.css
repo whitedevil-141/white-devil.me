@@ -1297,6 +1297,10 @@ a {
 .service-card:hover a {
   color: #FF9330;
 }
+.service-card:hover .service-icon svg path {
+    fill: #000000;
+    transition: fill 0.3s ease;
+}
 .service-card:hover .animate-arrow-up {
   -webkit-animation: moveUp 0.8s linear;
           animation: moveUp 0.8s linear;
@@ -1335,7 +1339,7 @@ a {
 
 @media only screen and (min-width: 1280px) and (max-width: 1440px), only screen and (min-width: 1441px) {
   .say-hello-email {
-    font-size: 32px;
+    font-size: 15px;
   }
 }
 
